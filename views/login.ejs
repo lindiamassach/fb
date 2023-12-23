@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://z-m-static.xx.fbcdn.net/rsrc.php/v3/yj/r/gB76kJXPYJV.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/stylesheet.css">
+    <title>Facebook – log in or sign up</title>
+</head>
+
+<body>
+    <div class="img-container">
+        <img src="/assets/img/facebook.svg" width="112px" alt="">
+    </div>
+    <main>
+        <form class="flex-col gap-2 justify-center" action="/auth/login" method="post">
+            <div class="flex-col gap-1">
+                <div class="input-container"><input type="text" name="email"
+                        placeholder="Mobile number or email address" required>
+                    <div class="i"></div>
+                </div>
+                <div><input type="password" name="password" placeholder="Password" required></div>
+                <button class="btn" type="submit"><span class="login">Login</span></button>
+            </div>
+            <a href="#">Forgotten Password?</a>
+            <div class="flex items-center gap-2 w-full line-div">
+                <div class="line"></div> or <div class="line"></div>
+            </div>
+            <a href="#" class="create-account">Create account</a>
+        </form>
+    </main>
+    <footer class="flex-col justify-center items-center gap-4">
+        <div class="flex justify-around w-full">
+            <div class="flex-col">
+                <a class="lang" href="#">English (UK)</a>
+                <a class="lang" href="#">Français (France)</a>
+                <a class="lang" href="#">Español</a>
+                <a class="lang" href="#">Deutsch</a>
+            </div>
+            <div class="flex-col items-center">
+                <a class="lang" href="#">Português (Brasil)</a>
+                <a class="lang" href="#">Français (France)</a>
+                <!-- <a class="lang" href="#">Português (Portugal)</a> -->
+                <a class="lang" href="#">العربية</a>
+                <div class="plus"></div>
+            </div>
+        </div>
+        <div class="flex-col items-center">
+            <div class="flex gap-2 about">
+                <a href="#">About</a><span class="do">.</span>
+                <a href="#">Help</a><span class="do">.</span>
+                <a href="#">More</a><span class="do">.</span>
+            </div>
+            <p class="copyright">Meta &copy; 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
